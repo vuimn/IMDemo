@@ -1,0 +1,28 @@
+server:
+  port: 8080
+
+# 企业微信机器人配置
+wecom:
+  bot:
+    # 机器人 ID（在企业微信后台获取）
+    id:
+    # 机器人 Secret
+    secret:
+
+# AI 配置
+deepseek:
+  api:
+    # API Key（在 https://platform.deepseek.com 获取）
+    key:
+    # API 地址（完整路径）
+    base-url:
+    # 使用的模型
+    model:
+    # 最大 Token 数
+    max-tokens: 2048
+    # 系统提示词
+    system-prompt: 你是一个智能助手，请用简洁、专业的语言回答用户的问题。
+
+logging:
+  level:
+    com.zimu.imdemo: DEBUG
